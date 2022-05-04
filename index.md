@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Welcome to my GitHub Page!
 
-You can use the [editor on GitHub](https://github.com/tracy-chow/tracy-chow/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hello! My name is Tracy and here are a few of my projects. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<br>
 
-### Markdown
+## [Short Vowels Game](https://github.com/tracy-chow/Short-Vowels-Game/blob/main/Final-Project-R_Controlled-Vowels-Game-master/index.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I made this interactive game for my first graders. It's also my very first Javascript project. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+<a href="https://github.com/tracy-chow/Short-Vowels-Game/blob/main/Final-Project-R_Controlled-Vowels-Game-master/index.html">
+         <img alt="Go to Game" src="https://raw.githubusercontent.com/tracy-chow/Short-Vowels-Game/main/Final-Project-R_Controlled-Vowels-Game-master/images/monsters2.png"
+         width="500"/>
 
-- Bulleted
-- List
+<br>
+  
+## [Wedding Website](https://github.com/tracy-chow/weddingWebpage/blob/main/tchow99.github.io-master/index.html)
 
-1. Numbered
-2. List
+Not wanting to pay for a website or get a free cookie-cutter one, I put my front-end web development knowledge into practice with 1 month before I had to push out the website.  
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tracy-chow/tracy-chow/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ <a href="https://github.com/tracy-chow/weddingWebpage/blob/main/tchow99.github.io-master/index.html">
+         <img alt="Wedding Webpage" src="https://raw.githubusercontent.com/tracy-chow/weddingWebpage/main/tchow99.github.io-master/images/156TracyDerek%5B1%5D.jpg"
+         width="500"/>
