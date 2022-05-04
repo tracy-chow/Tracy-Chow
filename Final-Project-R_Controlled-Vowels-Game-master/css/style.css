@@ -1,0 +1,416 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: rgb(51, 51, 51);
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'McLaren', cursive;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+h2{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+h3{
+  font-size: 5px;
+  margin-bottom: 0px;
+}
+
+.result{
+  font-size: 30px;
+  margin: 0px;
+  color: rgb(129, 64, 156);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  background-color: rgb(51, 51, 51);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+
+button{
+  font-family: 'McLaren', cursive;
+}
+
+button:hover{
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+#startGame {
+  font-size: 30px;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(255, 197, 0);
+}
+
+#startGame:hover{
+  background-color: rgb(181, 215, 3);
+  border-color: rgb(181, 215, 3);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.playAgain {
+  font-size: 30px;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(0, 207, 206);
+}
+
+.playAgain:hover{
+  background-color: rgb(181, 215, 3);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+button.ar{
+  height: 130px;
+  width: 10%;
+  font-size: 100px;
+  margin-left: 7.5%;
+  margin-right: 4.5%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(95, 167, 227);
+  background-color: rgb(51, 51, 51);
+  border-radius: 30px;
+  border: rgb(51, 51, 51);
+}
+
+
+button.er{
+  height: 130px;
+  width: 10%;
+  font-size: 100px;
+ margin-left: 4.5%;
+  margin-right: 4.5%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(0, 207, 206);
+  background-color: rgb(51, 51, 51);
+  border-radius: 30px;
+  border: rgb(51, 51, 51);
+}
+
+button.ir{
+  height: 130px;
+  width: 10%;
+  font-size: 100px;
+  margin-left: 4.5%;
+  margin-right: 2%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(255, 197, 0);
+  background-color: rgb(51, 51, 51);
+  border-radius: 30px;
+  border: rgb(51, 51, 51);
+}
+
+button.or{
+  height: 130px;
+  width: 10%;
+  font-size: 100px;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(245, 151, 182);
+  background-color: rgb(51, 51, 51);
+  border-radius: 30px;
+  border: rgb(51, 51, 51);
+}
+
+button.ur{
+  height: 130px;
+  width: 10%;
+  font-size: 100px;
+  margin-left: 4.5%;
+  margin-right: 1.5%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(181, 215, 3);
+  background-color: rgb(51, 51, 51);
+  border-radius: 30px;
+  border: rgb(51, 51, 51);
+}
+
+.buttonContainer{
+  margin-left: 9%;
+  margin-right: 0%;
+  width: 80%;
+}
+
+.vowelContainer{
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  height: 400px;
+  margin-top: 0;
+}
+
+.wordContainer {
+  background-color: rgb(0, 207, 206);
+  width: 80%;
+  height: 175px;
+  float: left;
+  bottom: 0px;
+}
+
+.wordClue{
+  font-size: 120px;
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-top: 1px;
+  padding-bottom: 1px;;
+}
+
+.imageContainer {
+  background-color: rgb(255, 197, 0);
+  width: 20%;
+  height: 175px;
+  float: right;
+  bottom: 0;
+}
+
+.bottomWrapper{
+  width: 100%;
+  height: 175px;
+  position: fixed;
+  vertical-align: bottom;
+  bottom: 0;
+  margin: 0;
+}
+
+.imageClue{
+  width: 100%;
+  height: 150px;
+  margin-top: 15px;
+  background-color: rgb(255, 197, 0);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.shark {
+  background-image: url(../images/shark.png)
+}
+
+.spider {
+  background-image: url(../images/spider.png)
+}
+
+.turtle {
+  background-image: url(../images/turtle.png)
+}
+
+.horse {
+  background-image: url(../images/horse.png)
+}
+
+.squirrel {
+  background-image: url(../images/squirrel.png)
+}
+
+.tiger {
+  background-image: url(../images/tiger.png)
+}
+
+.nerve {
+  background-image: url(../images/nerve.png)
+}
+
+.water {
+  background-image: url(../images/water.jpeg)
+}
+ 
+.feather {
+  background-image: url(../images/feather.jpeg)
+}
+
+.germs{
+  background-image: url(../images/germs.jpeg)
+}
+
+.scarf{
+  background-image: url(../images/scarf.png)
+}
+
+.harp{
+  background-image: url(../images/harp.jpeg)
+}
+
+.garden{
+  background-image: url(../images/garden.jpeg)
+}
+
+.heart{
+  background-image: url(../images/heart.png)
+}
+
+.marbles{
+  background-image: url(../images/marbles.jpeg)
+}
+
+.farm{
+  background-image: url(../images/farm.jpeg)
+}
+
+.church{
+  background-image: url(../images/church.jpeg)
+}
+
+.nurse{
+  background-image: url(../images/nurse.jpeg)
+}
+
+.curtain{
+  background-image: url(../images/curtain.jpeg)
+}
+
+.purse{
+  background-image: url(../images/purse.gif)
+}
+
+.turkey{
+  background-image: url(../images/turkey.png)
+}
+
+.circle{
+  background-image: url(../images/circle.jpeg)
+}
+
+.shirt{
+  background-image: url(../images/shirt.png)
+}
+
+.stir{
+  background-image: url(../images/stir.png)
+}
+
+.bird{
+  background-image: url(../images/bird.gif)
+}
+
+.girl{
+  background-image: url(../images/girl.jpeg)
+}
+
+.skirt{
+  background-image: url(../images/skirt.png)
+}
+
+.birthday{
+  background-image: url(../images/birthday.jpeg)
+}
+
+.torch{
+  background-image: url(../images/torch.gif)
+}
+
+.sword{
+  background-image: url(../images/sword.png)
+}
+
+.acorn{
+  background-image: url(../images/acorn.png)
+}
+
+.storm{
+  background-image: url(../images/storm.png)
+}
+
+.forty{
+  background-image: url(../images/forty.png)
+}
+
+.monsters{
+  background-image: url(../images/threeCuteMonsters.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.monsters2{
+  background-image: url(../images/monsters2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.monsters:hover{
+  background-image: url(../images/threeCuteMonsters.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: scale(1.1);
+  transform: rotate(10deg);
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
