@@ -4,7 +4,7 @@ Hello! My name is Tracy and here are a few of my projects.
 
 <br>
 
-## [Short Vowels Game](https://rawcdn.githack.com/tracy-chow/Short-Vowels-Game/98e8abf3f4748efade5a99e42ac3592db08541f8/Final-Project-R_Controlled-Vowels-Game-master/index.html)
+## [Short Vowels Game](https://rawcdn.githack.com/tracy-chow/Short-Vowels-Game/bef11748ff5d4172f7c9c717a09013b7587ad40b/Final-Project-R_Controlled-Vowels-Game-master/index.html)
 
 I made this interactive game for my first graders. It's also my very first Javascript project. 
 
