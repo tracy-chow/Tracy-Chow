@@ -1,6 +1,6 @@
 # Welcome to my GitHub Page!
 
-Hello! My name is Tracy and here are a few of my projects. 
+Hello! My name is Tracy. Here are a few of my projects. 
 
 <br>
 
