@@ -18,7 +18,7 @@ I made this interactive game for my first graders. It's also my very first Javas
          
 ## [Wedding Website](https://github.com/tracy-chow/weddingWebpage/blob/main/tchow99.github.io-master/index.html)
 
-Not wanting to pay for a website or get a free cookie-cutter one, I put my front-end web development knowledge into practice with 1 month before I had to push out the website.  
+Not wanting to pay for a website or get a free cookie-cutter one, I put my front-end web development knowledge to good use.  
 
 
  <a href="https://rawcdn.githack.com/tracy-chow/weddingWebpage/8732d404c11ed1abb726e1f8f1273cb6aaecf3ac/tchow99.github.io-master/index.html">
