@@ -1,6 +1,6 @@
 # Welcome to my GitHub Page!
 
-Hello! My name is Tracy. Here are a few of my projects. 
+Hello! My name is Tracy. Here are a few of my early projects. 
 
 <br>
 
@@ -18,7 +18,7 @@ I made this interactive game for my first graders as my capstone assignment for 
          
 ## [Wedding Website](https://rawcdn.githack.com/tracy-chow/weddingWebpage/8732d404c11ed1abb726e1f8f1273cb6aaecf3ac/tchow99.github.io-master/index.html)
 
-Not wanting to pay for a website or get a free cookie-cutter one (this is many years ago!), I put my front-end web development knowledge to good use.
+Not wanting to pay for a website or get a free cookie-cutter one (this is many years ago!), I put my front-end web development knowledge to good use. And yes, this one is dynamic so you can view it on mobile.
          <br>
 
  <a href="https://rawcdn.githack.com/tracy-chow/weddingWebpage/8732d404c11ed1abb726e1f8f1273cb6aaecf3ac/tchow99.github.io-master/index.html">
